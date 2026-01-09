@@ -1,8 +1,10 @@
+
+
 import React, { useMemo } from "react";
 import Sidebar from "./Sidebar";
 import { useTrading } from "./context/TradingContext";
 import { calculatePosition } from "./utils/positions";
-import "./portfolio.css";
+import "./Portfolio.css";
 
 function Portfolio() {
   const { orders, prices } = useTrading();

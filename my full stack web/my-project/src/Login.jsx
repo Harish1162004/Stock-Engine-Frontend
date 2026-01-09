@@ -1,6 +1,8 @@
+
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./login.css";
+import "./Login.css";// casing fixed for linux
 
 function Login() {
   const [username, setUsername] = useState("");

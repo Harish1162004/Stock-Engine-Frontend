@@ -1,3 +1,5 @@
+
+
 import "./dashboard.css";
 
 function MarketCard({ name, price, prevPrice }) {
