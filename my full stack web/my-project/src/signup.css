@@ -85,12 +85,10 @@ html, body {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .signup-box button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
 }
 
 /* LOGIN LINK */
@@ -104,10 +102,6 @@ html, body {
   color: #2563eb;
   font-weight: bold;
   text-decoration: none;
-}
-
-.signup-link a:hover {
-  text-decoration: underline;
 }
 
 /* ANIMATION */
