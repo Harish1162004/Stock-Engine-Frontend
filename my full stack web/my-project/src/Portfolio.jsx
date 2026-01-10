@@ -1,7 +1,7 @@
 
 
 import React, { useMemo } from "react";
-import Sidebar from "./Sidebar";
+import Sidebar from ".D:\my hcl full project\stock project frontend\my full stack web\my-project\src\sidebar.jsx"
 import { useTrading } from "./context/TradingContext";
 import { calculatePosition } from "./utils/positions";
 import "./Portfolio.css";
