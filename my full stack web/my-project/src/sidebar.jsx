@@ -1,5 +1,3 @@
-
-
 import { NavLink, useNavigate } from "react-router-dom";
 import "./sidebar.css";
 
@@ -15,10 +13,23 @@ function Sidebar() {
     <div className="sidebar">
       <h2 className="logo">StockEngine</h2>
 
-      <NavLink to="/dashboard">Dashboard</NavLink>
-      <NavLink to="/orders">Orders</NavLink>
-      <NavLink to="/place-order">Place Order</NavLink>
-      <NavLink to="/portfolio">Portfolio</NavLink>
+      <div className="menu">
+        <NavLink to="/dashboard" className="menu-item">
+          Dashboard
+        </NavLink>
+
+        <NavLink to="/orders" className="menu-item">
+          Orders
+        </NavLink>
+
+        <NavLink to="/place-order" className="menu-item">
+          Place Order
+        </NavLink>
+
+        <NavLink to="/portfolio" className="menu-item">
+          Portfolio
+        </NavLink>
+      </div>
 
       <button className="logout" onClick={logout}>
         Logout
